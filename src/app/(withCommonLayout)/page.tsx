@@ -1,4 +1,5 @@
 // import { Button } from '@mui/material';
+import { Typography } from '@mui/material';
 import Button from '@mui/material/Button';
 import React from 'react';
 
@@ -6,7 +7,8 @@ const HomePage = () => {
   return (
     <div>
       <h1>Hello</h1>
-      <Button variant="contained">Contained</Button>
+      <Button>Contained</Button>
+      <Typography variant='body1' >Hello World</Typography>
     </div>
   );
 };
