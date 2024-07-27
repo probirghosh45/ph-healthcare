@@ -42,10 +42,11 @@ export const theme = createTheme({
 
   typography: {
         body1 : {
-        fontFamily: "Raleway Arial",
-        fontSize: 50,
+        // fontFamily: "Raleway Arial",
+        // fontSize: 50,
         // color : "red",
-        color : "#0D0000",
+        // color : "#0D0000",
+        color : "#0B1134CC",
        },
     }, 
 });
